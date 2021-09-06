@@ -1,0 +1,25 @@
+body.home{
+    background-image: url('/img/emilia-home.jpg');
+    background-repeat: no-repeat; /* si la img de background no re repita */
+    background-size: 75%;
+    background-position: right -117px;
+}
+
+.home h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 32px; /* separa o junta las letar verticalmente */
+    letter-spacing: 5px; /* separa o junta las letra Horizontalmente*/
+    margin-left: 60px;
+}
+
+.home h1{
+    text-transform: uppercase;
+    font-size: 66px;
+    font-family: 'Raleway', sans-serif;
+    /* margin-right: 10px; */
+    background-color: rgba(255, 255, 255, .5);
+}
