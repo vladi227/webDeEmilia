@@ -1,0 +1,74 @@
+/* body.musica{
+    padding: 10px;
+} */
+
+header.music{
+    background-image: url('/img/emilia-music-top.jpg');
+    background-repeat: no-repeat; /* si la img de background no re repita */
+    background-size: cover; /* el fondo se adapta al contenedor y ocupa todo su espacio */
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+body.musica main{
+    padding: 10px;
+}
+
+body.musica main h1{
+    margin: 25px 0;
+}
+
+body.musica main h4{
+    padding: 15px 0;
+}
+
+body.musica main ul{
+    padding-left: 30px;
+    padding-bottom:15px;
+    line-height: 30px;
+}
+
+body.musica main h2.tvideo{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+body.musica main section{
+    margin-top: 60px;
+}
+
+body.musica main section ol{
+    padding-left: 30px;
+    padding-bottom:15px;
+    /* padding-top: 15px; */
+    line-height: 35px;
+}
+
+body.musica main section ol li{
+    list-style-type: decimal-leading-zero;
+    margin-left:20px;
+}
+
+body.musica img, body.musica iframe{
+    margin-bottom: 30px;
+}
+
+body.musica a.go{
+    display: inline-block;
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+
+/* header de contacto */
+
+body.contact header.wor{
+    background-image: url('/img/emilia-music-top.jpg');
+    background-repeat: no-repeat; /* si la img de background no re repita */
+    background-size: cover; /* el fondo se adapta al contenedor y ocupa todo su espacio */
+    padding-top:20px;
+    padding-bottom: 10px;
+}

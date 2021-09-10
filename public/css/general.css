@@ -12,11 +12,20 @@ font-family: 'Work Sans', sans-serif;
 
 body{
     font-family: 'Open Sans', sans-serif;
-    padding: 10px;
 }
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-size: 66px;
+    font-family: 'Raleway', sans-serif;
+    /* margin-right: 10px; */
+}
+:root{
+    --colorverde : #44a391;
 }

@@ -3,6 +3,7 @@ body.home{
     background-repeat: no-repeat; /* si la img de background no re repita */
     background-size: 75%;
     background-position: right -117px;
+    padding: 10px;
 }
 
 .home h2{

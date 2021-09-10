@@ -1,6 +1,6 @@
-header{
+header nav{
     margin-left: 60px;
-    margin-top: 30px;
+    
 }
 
 header nav ul li a{
@@ -11,4 +11,47 @@ header nav ul li a{
 
 header nav a{
     color: black;
+}
+
+/* herder Horizontal */
+
+header.row nav{
+    text-align: right;
+    /* background-color: rgba(255, 255, 255, .5); */
+}
+
+header.row nav.menu{
+    background-color: rgba(255, 255, 255, .5);
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+header.row nav.redes{
+    margin-top: 10px;
+    letter-spacing: 5px; /* separa o junta las letra Horizontalmente*/
+}
+
+header.row nav ul li{
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+header.row nav ul li:last-child{/* al ultimo hijo */
+    border-right: 1px solid black;
+}
+
+header.row nav ul li a{
+    color: black;
+    line-height: 20px;
+}
+
+/* header de music */
+
+header.music nav{
+    margin-top: 10px;
+    margin-left: 0px;
 }
